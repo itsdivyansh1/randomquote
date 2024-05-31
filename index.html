@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Quotes</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <marquee behavior="alternate" direction="right">
+        <span>Get quotes</span>
+      </marquee>
+    </header>
+    <div class="container">
+      <h1>Get Random quotes</h1>
+
+      <button id="btn">Get Quote</button>
+      <table style="border-spacing: 1rem; text-align: left">
+        <tr>
+          <th>Author:</th>
+          <td id="show-author"></td>
+        </tr>
+        <tr>
+          <th>Quote:</th>
+          <td id="show-quote"></td>
+        </tr>
+      </table>
+    </div>
+
+    <footer>
+      <p>&copy;copyright@getquotes</p>
+    </footer>
+
+    <script src="js/config.js"></script>
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
